@@ -1,0 +1,45 @@
+/* @import '../node_modules/h8k-design/dist/index.css'; */
+
+body{
+  background-color: coral;
+  margin: 0;
+}
+
+.image-thumb {
+  border: 2px solid transparent;
+}
+
+.image-thumb.thumb-selected {
+  border: 2px solid wheat;
+}
+
+.layout-row{
+  display: flex;
+}
+
+.thumb {
+  display: flex;
+  background-size: contain;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  flex-direction: row;
+}
+
+.viewer{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.file-details{
+  min-width: 20%;
+  background-color: skyblue;
+  max-width: 40%;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 4px;
+  font-size: 1.5em;
+}
